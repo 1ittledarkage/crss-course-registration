@@ -5,4 +5,4 @@ def search_sections(sections, course_code=None, instructor=None):
         for section in sections
         if (course_code is None or section["course_code"] == course_code)
         and (instructor is None or section["instructor"] == instructor)
-    ]
+    ]# Main branch change 
