@@ -1,8 +1,8 @@
-def search_sections(sections, course_code=None, instructor=None):
-    """Search course sections by course code and instructor."""
+def search_sections(sections, course_code=None, department=None):
+    """Search course sections by course code and department."""
     return [
         section
         for section in sections
         if (course_code is None or section["course_code"] == course_code)
-        and (instructor is None or section["instructor"] == instructor)
+        and (department is None or section["department"] == department)
     ]
