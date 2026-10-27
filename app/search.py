@@ -1,5 +1,5 @@
 def search_sections(sections, course_code=None, department=None):
-    """Search course sections by course code and department."""
+   """Search course sections by course code and department (feature branch)."""
     return [
         section
         for section in sections
